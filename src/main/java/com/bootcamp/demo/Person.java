@@ -4,10 +4,12 @@ public class Person {
 
 	private String firstName;
 	private String lastName;
+	private String email;
 
-	public Person(String firstName, String lastName) {
+	public Person(String firstName, String lastNamem String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.email = email;
 	}
 
 	public String getFirstName() {
@@ -27,4 +29,12 @@ public class Person {
 	}
 	
 
+	public String getEmail() {
+		return email;
+	}
+	
+	public void setEmail() {
+		this.email = email;
+	}
+	
 }

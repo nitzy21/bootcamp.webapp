@@ -9,6 +9,12 @@ public class Person {
 		this.firstName = firstName;
 	}
 	
+	public String getFirstName() {
+		return firstName;
+	}
 	
+	public void setFirstName() {
+		this.firstName = firstName;
+	}
 	
 }
